@@ -1,8 +1,5 @@
 $(document).ready(function(){
 	
-	$("#valor").mask('R$ 000.000,00');
-	$("#data").mask('99/99/9999');
-	    
      $("#carousel-example-generic").carousel({
          interval : 3000,
          pause: false
