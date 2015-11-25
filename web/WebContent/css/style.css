@@ -292,6 +292,10 @@ footer {
 	background-color: #ffffff;
 	font-size: 0.9em;
 }
+
+.imageRow{
+display:none;
+}
  
 .navbar-default{
 	height: 150px;
