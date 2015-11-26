@@ -33,7 +33,7 @@ $(document).ready(function(){
     	    	newRow.append(cols);
         	    $("#tabelaLance").append(newRow);
         	    
-        	    $('#table1 tr:last-child ').find('th:last-child').html(valor);
+        	    $('#table1 tr:last-child ').find('th:last-child').html("R$"+ valor);
     	    }
     	    
     	    limpar();
