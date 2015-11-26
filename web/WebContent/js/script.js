@@ -27,12 +27,8 @@ $(document).ready(function(){
     	    var valor = $("#valor").val();
     	    var dt = $("#data").val();
     	    cols += '<td>'+ usu +'</td>';
-    	    cols += '<td>'+ valor +'</td>';
-    	    cols += '<td>'+ dt +'</td>';
-    	    cols += '<td>';
-    	    cols += '<button onclick="RemoveTableRow(this)" class="btn btn btn-primary" type="button">Excluir</button>';
-    	    cols += '</td>';
-
+    	    cols += '<td>'+ "R$"+ valor +'</td>';
+    	    cols += '<td>'+ dt + '<button onclick="RemoveTableRow(this)" class="btn btn-mini btn-primary" type="button" style=" float: right;"><i class="fa fa-trash"></i></button> </td>';
     	    if(usu !== "" || valor !=="" || dt !== ""){
     	    	newRow.append(cols);
         	    $("#tabelaLance").append(newRow);
